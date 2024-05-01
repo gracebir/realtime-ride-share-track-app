@@ -35,7 +35,6 @@ function Direction() {
 
     useEffect(() => {
         if (!routesLibrary || !map) return;
-
         setDirectionService(new routesLibrary.DirectionsService());
         setDirectionRenderer(new routesLibrary.DirectionsRenderer({ map }));
     }, [map, routesLibrary]);
