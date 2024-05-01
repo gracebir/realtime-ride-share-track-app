@@ -4,6 +4,8 @@
 
 This is a real-time tracking application built using React and the Google Maps API. It allows drivers to track their progress along a predefined route, showing the estimated time to reach each upcoming stop.
 
+![demo](./demo.png)
+
 ## Technologies Used
 
 -   React
