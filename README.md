@@ -49,7 +49,11 @@ To set up the project locally, follow these steps:
     VITE_API_KEY=your_api_key
     ```
 
-5. Install dependencies:
+5. Start the development server:
     ```bash
-    npm install
+    npm run dev
     ```
+
+## Video Demo
+
+Check out this video demo for a walkthrough of the application.
