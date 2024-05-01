@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import car from "./assets/car.png";
 import { APIProvider, Map, Marker } from "@vis.gl/react-google-maps";
+import Direction from "./components/Direction";
 
 const App = () => {
     const api_key: string = import.meta.env.VITE_API_KEY;
@@ -42,6 +43,7 @@ const App = () => {
                     {driverLocation && (
                         <Marker position={driverLocation} icon={car} />
                     )}
+                    <Direction />
                 </Map>
             </APIProvider>
             <Footer />
