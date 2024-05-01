@@ -23,7 +23,7 @@ Before running the application, you need to set up the required APIs in the Goog
     - Maps JavaScript API
     - Route API
 
-![Google Cloud APIs](google-cloud-apis.png)
+![Google Cloud APIs](./google-cloud.png)
 
 ## Setting Up Locally
 
@@ -54,6 +54,6 @@ To set up the project locally, follow these steps:
     npm run dev
     ```
 
-## Video Demo
+## Live Demo
 
-Check out this video demo for a walkthrough of the application.
+Check out this [Live demo](https://realtime-ride-share-track-app.vercel.app/) for a walkthrough of the application.
